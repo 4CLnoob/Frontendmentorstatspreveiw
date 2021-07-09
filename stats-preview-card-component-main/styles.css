@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 2rem;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  background-color:hsl(233, 47%, 7%);
+  padding: 15em;
+  
+  }
+  
+.div1 {
+  grid-area: 1 / 1 / 2/ 2; 
+  background-color:hsl(244, 38%, 16%);
+  margin-left: 2em;
+  padding: 0.75em;
+  padding-right: 3em;
+  color:hsla(0, 0%, 100%, 0.75);
+  font-family: [Lexend Deca]("https://fonts.google.com/specimen/Inter");
+  line-height: 2;
+  letter-spacing:0.3vh;
+  font-size: 2vh;
+  font-weight:500;
+  border-bottom-left-radius:11px;
+  border-top-left-radius:11px;
+}
+
+h4{
+  font-family: inherit;
+  color:hsla(0, 0%, 100%, 0.6);
+  line-height: 16vh;
+  letter-spacing:1.2vh;
+  font-size: 3.5vh;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+h6 {
+color: hsla(0, 0%,100%, 0.6);
+line-height:0.4em;
+padding-top: 0px;
+margin-top: 0px;
+letter-spacing: 0.5vh;
+
+
+
+}
+
+
+
+.div2 img {
+  grid-area: 1 / 1 / 2 / 2; 
+border-top-right-radius: 15px;
+border-bottom-right-radius: 15px;
+max-width: 100%;
+max-height: auto;
+
+}
+
+
+  
+  
+
